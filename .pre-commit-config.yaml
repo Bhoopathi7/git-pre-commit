@@ -3,4 +3,5 @@ repos:
     rev: v1.2.3
     hooks:
     -   id: no-commit-to-branch
+        args: ['--branch', 'master']
     -   id: pretty-format-json
